@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=BluejeansHelper
+Comment=BluejeansHelperstartup script
+Exec=/home/vainilie/.config/bluejeans-v2/BluejeansHelper --hidden
+StartupNotify=false
+Terminal=false
+Hidden=true
+

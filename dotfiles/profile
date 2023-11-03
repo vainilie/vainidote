@@ -1,0 +1,6 @@
+export TERMINAL=xfce4-terminal
+#export QT_QPA_PLATFORMTHEME=qt5ct
+#export QT_QPA_PLATFORMTHEME=qt6ct
+export QT_QPA_PLATFORMTHEME="qt5ct"
+
+PATH=/home/vainilie/.cargo/bin:/home/vainilie/.config/polybar/scripts:/home/vainilie/.build:/home/vainilie/.local/bin:/usr/local/bin:/home/vainilie/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.config/rofi/scripts

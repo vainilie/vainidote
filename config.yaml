@@ -1,0 +1,87 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  f_vimrc:
+    src: vimrc
+    dst: ~/.vimrc
+  d_polybar:
+    src: config/polybar
+    dst: ~/.config/polybar
+  d_alacritty:
+    src: config/alacritty
+    dst: ~/.config/alacritty
+  d_autostart:
+    src: config/autostart
+    dst: ~/.config/autostart
+  d_berry:
+    src: config/berry
+    dst: ~/.config/berry
+  d_berry.old:
+    src: config/berry.old
+    dst: ~/.config/berry.old
+  d_dconf:
+    src: config/dconf
+    dst: ~/.config/dconf
+    chmod: '700'
+  d_dunst:
+    src: config/dunst
+    dst: ~/.config/dunst
+  d_kitty:
+    src: config/kitty
+    dst: ~/.config/kitty
+  d_nvim:
+    src: config/nvim
+    dst: ~/.config/nvim
+  d_rofi:
+    src: config/rofi
+    dst: ~/.config/rofi
+  d_rofi.vainilie:
+    src: config/rofi.vainilie
+    dst: ~/.config/rofi.vainilie
+  d_poshthemes:
+    src: poshthemes
+    dst: ~/.poshthemes
+  d_space_mono:
+    src: space_mono
+    dst: ~/space_mono
+  f_bash_aliases:
+    src: bash_aliases
+    dst: ~/.bash_aliases
+  f_bash_profile:
+    src: bash_profile
+    dst: ~/.bash_profile
+  f_bashrc:
+    src: bashrc
+    dst: ~/.bashrc
+  f_dircolors:
+    src: dircolors
+    dst: ~/.dircolors
+    chmod: '755'
+  f_profile:
+    src: profile
+    dst: ~/.profile
+    chmod: '755'
+profiles:
+  elvendance:
+    dotfiles:
+    - f_vimrc
+    - d_polybar
+    - d_alacritty
+    - d_autostart
+    - d_berry
+    - d_berry.old
+    - d_dconf
+    - d_dunst
+    - d_kitty
+    - d_nvim
+    - d_rofi
+    - d_rofi.vainilie
+    - d_poshthemes
+    - d_space_mono
+    - f_bash_aliases
+    - f_bash_profile
+    - f_bashrc
+    - f_dircolors
+    - f_profile

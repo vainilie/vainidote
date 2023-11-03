@@ -1,0 +1,25 @@
+# Alias
+alias py="python"
+
+alias remove='rm -i'
+alias move='mv -i'
+alias list_empty_file='find . -type d -empty -print'
+alias delete_empty_file='find . -type d -empty -delete'
+
+alias sherlock="~/apps/sherlock/sherlock"
+alias rclone-g="rclone rcd --rc-web-gui"
+alias file_o='python3 $HOME/.local/bin/organize.py'
+alias file_org='python3 $HOME/.local/bin/fileorganizer_linux.py'
+alias reorg='file_org . $AGAIN'
+alias rofi_wr="rofi_wr en en es"
+
+#kitty + nnn
+alias icat="kitty +kitten icat"
+alias d="kitty +kitten diff --config $HOME/.config/kitty/diff-mocha.conf"
+alias nnn="nnn -erx"
+
+
+# directories
+alias cd_habitica='cd /home/vainilie/MEGA/Afterglow/habitica/project/pixabit/'
+alias cd_obsidian='cd /home/vainilie/MEGA/Afterglow/Vocative/'
+
